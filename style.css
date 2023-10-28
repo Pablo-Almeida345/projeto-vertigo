@@ -43,4 +43,20 @@ main{
     color: var(--gray-600);
 }
 
+.input-box{
+    display: flex;
+    flex-direction:column ;
+}
+
+.input-box div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.login label{
+    font-size: 0.875rem;
+    color: var(--gray-800);
+    font-weight: 600;
+}
+
 /* nome da cor rgb, rgba, hex, hls, hwb */

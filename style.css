@@ -8,6 +8,7 @@
 
 :root{
     --gray-800: #1E293B;
+    --gray-600: #475569;
 }
 
 /* 1 rem = 2 px */
@@ -28,8 +29,18 @@ main{
 }
 
 .decricao{
+    margin-bottom: 2.5rem;
+}
+
+.descricao h1{
     color: var(--gray-800);
     margin-bottom: 1rem;
+    font-size: 1.5625rem;
+}
+
+.decricao p{
+    font-size: 0.8125rem;
+    color: var(--gray-600);
 }
 
 /* nome da cor rgb, rgba, hex, hls, hwb */

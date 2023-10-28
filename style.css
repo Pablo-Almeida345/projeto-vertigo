@@ -116,4 +116,19 @@ main{
     font-weight: 700;
     font-size: 1rem;
 }
+@media(min-whidth: 1000px) {
+    header {
+        background: none;
+        justify-content: flex-start;
+    }
+
+    header img{
+        width: 10rem;
+    }
+
+    main {
+        padding-inline: 7rem;
+    }
+}
+
 /* nome da cor rgb, rgba, hex, hls, hwb */
